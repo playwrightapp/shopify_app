@@ -5,6 +5,7 @@ source "https://rubygems.org"
 gemspec
 
 gem 'rails-controller-testing', group: :test
+gem "shopify_api", github: 'playwrightapp/shopify_api'
 
 group :rubocop do
   gem 'rubocop-shopify', require: false
